@@ -16,8 +16,47 @@
   },
   "about": {
     "title": "About Me",
-    "description": "A junior frontend developer eager to grow in the field of web development. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team."
+    "description":"A junior frontend developer eager to grow in the field of web development. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.",
+    "description2":"Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team.",
+    "button":"Завантажити резюме"
   },
+  "skills":{
+    "animatedTitle": ["Мої заклинання", "Я мала на увазі...", "Мої навички"]
+},
+"education":{
+    "mainTitle": "Education",
+    "description":"A summary of my academic background and professional training.",
+    "1":{
+        "animatedTitle": ["IT School GoIT"],
+        "title": " IT School GoIT",
+        "subtitle": "Full-Stack Developer",
+        "date": "April 2023 – December 2023"
+    },
+    "2":{
+        "animatedTitle": ["Hogwarts School of Witchc... ", "Actually ...", "Kyiv National Linguistic University"],
+        "title": "Kyiv National Linguistic University",
+        "subtitle": "Law",
+        "date": "September 2006 – June 2011"
+    }
+    },
+
+    "projects":{
+      "animatedTitle": ["Експекто Деплоймент!","Тобто, вибач!...", "Мої проекти" ],
+      "description":"A selection of my work, showcasing my skills and expertise in web development.",
+      "1":{
+        "animatedTitle": ["IT School GoIT"],
+        "title": " IT School GoIT",
+        "subtitle": "Full-Stack Developer",
+        "date": "April 2023 – December 2023"
+    },
+    "2":{
+        "animatedTitle": ["Hogwarts School of Witchc... ", "Actually ...", "Kyiv National Linguistic University"],
+        "title": "Kyiv National Linguistic University",
+        "subtitle": "Law",
+        "date": "September 2006 – June 2011"
+    }
+    },
+
   "footer": {
     "contact": "Contact us"
   }

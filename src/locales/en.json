@@ -20,7 +20,54 @@
     "description":"A junior frontend developer eager to grow in the field of web development. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.",
     "description2":"Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team.",
     "button":"Download CV"
+    },
+    "skills":{
+        "animatedTitle": ["My spells", "I mean ...", "My skills"]
+    },
+    "education":{
+    "mainTitle": "Education",
+    "description":"A summary of my academic background and professional training.",
+    "1":{
+        "animatedTitle": ["IT School GoIT"],
+        "title": " IT School GoIT",
+        "subtitle": "Full-Stack Developer",
+        "date": "April 2023 – December 2023"
+    },
+    "2":{
+        "animatedTitle": ["Hogwarts School of Witchcr... ", "I shouldn't have said that ...", "Kyiv National Linguistic University"],
+        "title": "Kyiv National Linguistic University",
+        "subtitle": "Law",
+        "date": "September 2006 – June 2011"
+    }
+    },
 
+    "projects":{
+      "animatedTitle": ["Expecto Deployment!","I mean, sorry...", "My Projects"],
+      "description":"A selection of my work, showcasing my skills and expertise in web development.",
+      "1":{
+        "title": "VI-3",
+        "description":"Developed an adaptive website to showcase doors, windows, and related products,featuring a minimalist design for easy product exploration.",
+        "technologies":"Technologies",
+        "techStack":"Next.js, Next Intl, TypeScript, Tailwind CSS, Canvas, Swiper",
+        "date": "December 2024 – March 2025",
+        "link": "https://vi-3.vercel.app/en",
+        "textLink": "View Project",
+        "src": "./assets/images/projects/vi_3.jpg",
+        "alt":"image of Vi-3 project",
+        "ariaLabel": "Link to Vi-3 project"
+    },
+    "2":{
+        "title": "Envent",
+        "description":"Adaptive multilingual website for an HVAC company.",
+        "technologies":"Technologies",
+        "techStack":"Next.js, Next Intl, TypeScript, SCSS, Framer Motion",
+        "date": "August 2024 – November 2024",
+        "link": "https://envent.vercel.app/en",
+        "textLink": "View Project",
+        "src": "./assets/images/projects/envent.jpg",
+        "alt":"image of Envent project",
+        "ariaLabel": "Link to Envent project"
+    }
     },
     "footer": {
       "contact": "Contact us"
