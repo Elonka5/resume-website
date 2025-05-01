@@ -1,0 +1,24 @@
+{
+  "header": {
+    "home": "Головна",
+    "about": "Про мене",
+    "contact": "Контакти",
+    "education": "Освіта",
+    "projects": "Проекти"
+  },
+  "hero": {
+    "title": "Elona Savchenko",
+    "social": "Social account",
+    "subtitle": "Front-end Developer",
+    "subtitle2": "Developer",
+    "description": "I specialize in building web applications, using technologies such as HTML, CSS, JavaScript, React, Next.js",
+    "button": "Let's Talk"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "A junior frontend developer eager to grow in the field of web development. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team."
+  },
+  "footer": {
+    "contact": "Contact us"
+  }
+}

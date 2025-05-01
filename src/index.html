@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Elona Savchenko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="nav-container">
+          <nav class="header-nav" aria-label="Main navigation">
+            <a href="./index.html" aria-label="Resume homepage">
+              <svg class="logo-icon" aria-hidden="true">
+                <use href="./assets/icons/icons.svg#developer_icon"></use>
+              </svg>
+            </a>
+            <ul class="nav-list" id="main-nav">
+              <li class="item">
+                <a
+                  href="./index.html"
+                  class="link link-current"
+                  data-i18n="header.home"
+                ></a>
+              </li>
+              <li class="item">
+                <a
+                  href="./index.html"
+                  class="link"
+                  data-i18n="header.about"
+                ></a>
+              </li>
+              <li class="item">
+                <a
+                  href="./index.html"
+                  class="link"
+                  data-i18n="header.education"
+                ></a>
+              </li>
+              <li class="item">
+                <a
+                  href="./index.html"
+                  class="link"
+                  data-i18n="header.projects"
+                ></a>
+              </li>
+              <li class="item">
+                <a
+                  href="./index.html"
+                  class="link"
+                  data-i18n="header.contact"
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <select id="languageSwitcher">
+            <option value="uk">Українська</option>
+            <option value="en">English</option>
+          </select>
+          <button type="button" class="burger-menu" aria-label="mobile-menu">
+            <svg class="burger-icon">
+              <use href="./assets/icons/icons.svg#menu"></use>
+            </svg>
+          </button>
+        </div>
+      </header>
+    </div>
+    <main>
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-first-wrapper">
+            <div class="hero-wrapper">
+            <div class="hero-title-wrapper">
+              <h1 class="hero-title" data-i18n="hero.title"></h1>
+              <span class="line"></span></div>
+              <div class="links-wrapper">
+              <p class="hero-social" data-i18n="hero.social"></p>
+              <ul class="hero-links-list">
+                <li>
+                  <a
+                    href="https://t.me/elonka"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="link to Telegram"
+                  >
+                    <svg class="hero-icon">
+                      <use href="./assets/icons/icons.svg#telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/elona-savchenko-a9a2b586/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="link to Linkedin"
+                  >
+                    <svg class="hero-icon">
+                      <use href="./assets/icons/icons.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Elonka5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="link to GitHub"
+                  >
+                    <svg class="hero-icon">
+                      <use href="./assets/icons/icons.svg#github"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            <div class="thumb">
+              <div class="triangle">
+                <img
+                  class="hero-img"
+                  src="./assets/images/hero/hero@1x.png"
+                  srcset="
+                    ./assets/images/hero/hero@1x.png 1x,
+                    ./assets/images/hero/hero@2x.png 2x
+                  "
+                  alt="hero image"
+                  width="361"
+                  height="188"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="hero-second-wrapper">
+            <h2 class="hero-subtitle" data-i18n-key="hero.animatedTitle"></h2>
+            <p class="hero-description" data-i18n="hero.description"></p>
+            <button class="btn primary">
+                <span data-i18n="hero.button"></span>
+                <span class="circle">
+                <svg class="btn-icon">
+                  <use href="./assets/icons/icons.svg#arrow"></use>
+                </svg></span>
+              </button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about-container">
+            <div class="thumb-about">
+                <div class="triangle">
+                  <img
+                    class="hero-img"
+                    src="./assets/images/about/about@1x.png"
+                    srcset="
+                      ./assets/images/about/about@1x.png 1x,
+                      ./assets/images/about/about@2x.png 2x
+                    "
+                    alt="about me image"
+                    width="361"
+                    height="188"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <div class="about-wrapper">
+          <h2 class="about-title" data-i18n="about.title"></h2>
+          <p class="about-description" data-i18n="about.description"></p>
+          <p class="about-description" data-i18n="about.description2"></p>
+          <a href="./files/Elona_Savchenko_Front-end_Developer.pdf" download class="btn secondary">
+            <span data-i18n="about.button"></span>
+            <span class="circle">
+            <svg class="btn-icon">
+              <use href="./assets/icons/icons.svg#download"></use>
+            </svg></span>
+          </a>
+        </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/lang.js" defer></script>
+  </body>
+</html>
