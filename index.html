@@ -245,12 +245,157 @@
           <ul id="projects-list" class="projects-list"></ul>
         </div>
       </section>
+      <section class="contacts-section">
+        <div class="container about-container">
+          <div class="thumb-about">
+            <div class="triangle">
+              <img
+                class="hero-img"
+                src="./assets/images/about/about@1x.png"
+                srcset="
+                  ./assets/images/about/about@1x.png 1x,
+                  ./assets/images/about/about@2x.png 2x
+                "
+                alt="about me image"
+                width="361"
+                height="188"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="about-wrapper">
+            <h2 class="about-title" data-i18n="about.title"></h2>
+            
+          </div>
+        
+        <!-- <form id="contact-form">
+          <label>
+            <span data-i18n="contact.name"></span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span data-i18n="contact.email"></span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span data-i18n="contact.message"></span>
+            <textarea name="message" required></textarea>
+          </label>
+          <button type="submit" class="btn" data-i18n="contact.send">Send</button>
+          <p id="form-status"></p>
+        </form> -->
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name" data-i18n="form.labels.name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              data-i18n-placeholder="form.placeholders.name"
+            />
+            <span class="error-message" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="form.labels.email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              data-i18n-placeholder="form.placeholders.email"
+            />
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="form.labels.message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              data-i18n-placeholder="form.placeholders.message"
+            ></textarea>
+            <span class="error-message" id="message-error"></span>
+          </div>
+          <button type="submit" data-i18n="form.submit">Submit</button>
+          <button type="button" id="clear-form" data-i18n="form.clear">Clear</button>
+          <p class="success-message" id="success-message"></p>
+        </form>
+
+
+        <!-- <form id="contact-form">
+          <input name="name" required data-i18n-placeholder="contact.name">
+          <input name="email" required type="email" data-i18n-placeholder="contact.email">
+          <textarea name="message" required data-i18n-placeholder="contact.message"></textarea>
+          <button type="submit" data-i18n="contact.button"></button>
+        </form> -->
+      </div>
+      </section>
+      <!-- <section class="parallax-stack">
+        <div class="stack-item"><img src="./assets/images/projects/fresh_harvest.webp" alt="Image 1"></div>
+        <div class="stack-item"><img src="./assets/images/projects/ITEdu.webp", alt="Image 2"></div>
+        <div class="stack-item"><img src="./assets/images/projects/envent.webp" alt="Image 3"></div>
+      </section> -->
+      <section class="parallax-stack">
+        <div class="stack-item">
+          <div class="gradient"></div>
+          <img src="./assets/images/projects/vi-3.jpg" alt="Magic image 1">
+          <div class="stack-text" data-i18n="parallax.text1">VI-3</div>
+        </div>
+      
+        <div class="stack-item">
+          <div class="gradient"></div>
+          <img src="./assets/images/projects/envent.jpg" alt="Magic image 2">
+          <div class="stack-text" data-i18n="parallax.text2">Envent</div>
+        </div>
+      
+        <div class="stack-item">
+          
+           
+          
+          <div class="gradient"></div>
+          <img src="./assets/images/projects/3.webp" alt="Magic image 3"> 
+          <div class="polaroid"></div>
+          <div class="polaroid-body"><div class="stack-text" data-i18n="parallax.text3">IT-edu
+            <span class="line"></span>
+            <p class="project-item-date" data-i18n="projects.${key}.date">August 2024 – November 2024</p>
+            <p class="project-description" >Adaptive multilingual website for an HVAC company</p>
+            <div class="project-description-wrapper">
+          <p class="project-description" data-i18n="projects.${key}.technologies"><strong>${project.technologies}</strong> </p>
+                    <p class="project-description" data-i18n="projects.${key}.techStack">${project.techStack}</p>
+                    </div>
+                    <a
+              href="${project.link}"
+               target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="${project.ariaLabel}"
+              class="btn project-btn"
+            >
+              <span data-i18n="projects.${key}.textLink">${project.textLink}</span>
+              <span class="circle">
+                <svg class="btn-icon">
+                  <use href="./assets/icons/icons.svg#arrow"></use></svg></span>
+            </a>
+          </div>
+        </div>
+          <!-- <div class="stack-text" data-i18n="parallax.text3">IT-edu
+            <span class="line"></span>
+          </div> -->
+          
+        </div>
+        <div class="stack-item">
+ 
+          <img src="./assets/images/projects/fhb.jpg" alt="">
+          <div class="stack-text">Fresh Harvest Box</div>
+        </div>
+      </section>
+      
     </main>
     <script type="module" src="./js/lang.js" defer></script>
     <script type="module" src="./js/skills.js" defer></script>
     <script type="module" src="./js/education.js"></script>
     <script type="module" src="./js/projects.js"></script>
     <script type="module" src="./js/switcher.js"></script>
+    <script type="module" src="./js/form.js"></script>
+    <script type="module" src="./js/parallax.js"></script>
     <!-- <script type="module" src="./js/main.js"></script> -->
   </body>
 </html>

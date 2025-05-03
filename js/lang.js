@@ -5,6 +5,7 @@
 //   }
 
 import { renderEducationList } from "./education.js";
+import { initForm } from "./form.js";
 import { renderProjectList } from "./projects.js";
 
   
@@ -120,6 +121,18 @@ export async function loadTranslations(lang) {
         el.textContent = text;
       }
     });
+    
+    const placeholderElements = document.querySelectorAll("[data-i18n-placeholder]");
+  placeholderElements.forEach((el) => {
+    const keys = el.getAttribute("data-i18n-placeholder").split(".");
+    let text = translations;
+    for (let key of keys) {
+      if (text[key]) text = text[key];
+    }
+    if (typeof text === "string") {
+      el.placeholder = text;
+    }
+  });
   
     const animatedElements = document.querySelectorAll('[data-i18n-key]');
     const observer = new IntersectionObserver(
@@ -160,4 +173,5 @@ export async function loadTranslations(lang) {
     const translations = await setLanguage(savedLang);
     renderEducationList(translations);
     renderProjectList(translations);
+    initForm(translations);
   });

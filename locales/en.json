@@ -13,7 +13,7 @@
       "subtitle2": "Developer",
       "description":"I specialize in building web applications, using technologies such as HTML, CSS, JavaScript, React, Next.js",
       "button":"Let's Talk",
-      "animatedTitle": ["Wizard", "Ooops...", "Front-end Developer"]
+      "animatedTitle": ["Wizard", "Ooops...","✨ Obliviate!", "Front-end Developer"]
     },
     "about":{
     "title": "About Me",
@@ -52,7 +52,7 @@
         "date": "December 2024 – March 2025",
         "link": "https://vi-3.vercel.app/en",
         "textLink": "View Project",
-        "src": "./assets/images/projects/vi_3.jpg",
+        "src": "./assets/images/projects/vi_3.webp",
         "alt":"image of Vi-3 project",
         "ariaLabel": "Link to Vi-3 project"
     },
@@ -64,11 +64,75 @@
         "date": "August 2024 – November 2024",
         "link": "https://envent.vercel.app/en",
         "textLink": "View Project",
-        "src": "./assets/images/projects/envent.jpg",
+        "src": "./assets/images/projects/envent.webp",
         "alt":"image of Envent project",
         "ariaLabel": "Link to Envent project"
-    }
     },
+    "3":{
+      "title": "ITEdu",
+      "description":"A system for monitoring educational programs in the field of “InformationTechnologies” at Kharkiv Higher Secondary Education.",
+      "technologies":"Technologies",
+      "techStack":"React, Redux, React Hook Form, MUI, Styled Components, Axios",
+      "date": "March 2024 – May 2024",
+      "link": "https://it-certification.vercel.app/",
+      "textLink": "View Project",
+      "src": "./assets/images/projects/ITEdu.webp",
+      "alt":"image of ITEdu project",
+      "ariaLabel": "Link to ITEdu project"
+  },
+  "4":{
+    "title": "Fresh Harvest Box",
+    "description":"Harvest Shop website with responsive layout and animation.",
+    "technologies":"Technologies",
+    "techStack":"HTML, CSS, JS, Parcel",
+    "date": "June 2023 – June 2023",
+    "link": "https://stepaniuk-den.github.io/UDT/index.html",
+    "textLink": "View Project",
+    "src": "./assets/images/projects/fresh_harvest.webp",
+    "alt":"image of Fresh Harvest Box project",
+    "ariaLabel": "Link to Fresh Harvest Box project"
+}
+    },
+    "contact": {
+    "title": "Contact me",
+    "name": "Your name",
+    "email": "Email",
+    "message": "Your message",
+    "button": "Send",
+    "success": "Message sent!",
+    "error": "Error while sending...",
+    "network": "Network error"
+  },
+  "form": {
+    "title": "Contact Form",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "message": "Enter your message"
+    },
+    "submit": "Submit",
+    "clear": "Clear",
+    "success": "Form submitted successfully!",
+    "errors": {
+      "name": {
+        "required": "Name is required",
+        "minLength": "Name must be at least 2 characters"
+      },
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email format"
+      },
+      "message": {
+        "required": "Message is required",
+        "minLength": "Message must be at least 10 characters"
+      }
+    }
+  },
     "footer": {
       "contact": "Contact us"
     }
