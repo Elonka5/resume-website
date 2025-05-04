@@ -53,9 +53,7 @@ body.dark .header,
   width: 100%;
   padding: 10px 14px;
   border: 1px solid var(--toggle-text-color);
-
   border-radius: 8px;
-
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -121,10 +119,7 @@ body.dark .header,
   align-items: center;
   justify-content: center;
   align-self: stretch;
-  /* width: 100%; */
   border-radius: 8px;
-  /* border: 1px solid var(--accent); */
-  /* box-shadow: 0px 1px 2px 0px var(--colors-effects-shadows-shadow-xs); */
   background-color: transparent;
   transition: border-color 0.3s ease;
 }
@@ -138,7 +133,7 @@ body.dark .header,
   padding: 8px 12px;
   border-radius: 8px;
   cursor: pointer;
-  background-image: url("../assets/icons/chevron-down.svg");
+  background-image: url('../assets/icons/chevron-down.svg');
   background-repeat: no-repeat;
   background-position: right 13px center;
 }
@@ -185,7 +180,7 @@ body.dark .header,
   right: 2.5px;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url("../assets/icons/btn.svg");
+  background-image: url('../assets/icons/btn.svg');
   background-size: contain;
   transform: translateY(-3.5px) translateX(-30px) rotate(-180deg);
 }
@@ -219,33 +214,30 @@ body.dark .switcher__ball {
   gap: 86px;
   align-items: center;
   justify-content: flex-end;
-  /* background: var(--background); */
   background: var(--toggle-main-bg-color);
   padding: 48px;
-  /* border-radius: 12px; */
   width: 100%;
-  /* width: 300px; */
   text-align: center;
   position: relative;
 }
 
 .close-btn {
   position: absolute;
-  top: 18px;
+  top: 12px;
   right: 15px;
   background: none;
+  padding: 8px;
 }
 
-.close-icon{
-    width: 22px;
-    height: 22px;
-    fill: var(--toggle-text-color);
+.close-icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--toggle-text-color);
 }
 
 .header-nav .nav-list {
   display: none;
 }
-
 
 .mobile-modal .nav-list {
   display: flex;
@@ -347,7 +339,6 @@ body.dark .switcher__ball {
     padding-top: 128px;
   }
 }
-
 
 .hero-container {
   display: flex;
@@ -641,7 +632,7 @@ body.dark .switcher__ball {
 }
 
 @media screen and (min-width: 768px) {
-  .about{
+  .about {
     padding-top: 120px;
   }
 }
@@ -822,11 +813,6 @@ body.dark .switcher__ball {
   flex-direction: column;
   gap: 32px;
 }
-
-.education-title.black {
-  color: var(--black);
-}
-
 
 .education-list,
 .contact-list {
@@ -1135,7 +1121,6 @@ body.dark .switcher__ball {
   border-radius: 8px;
   border: none;
   background-color: var(--toggle-input-bg-color);
-  color: var(--black);
 }
 
 @media screen and (min-width: 768px) {
@@ -1211,11 +1196,10 @@ body.dark .switcher__ball {
   margin-top: 0;
 }
 
-
 @media screen and (min-width: 768px) {
   .footer-text {
     font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+    font-size: 18px;
+    line-height: 28px;
   }
 }

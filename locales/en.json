@@ -159,16 +159,16 @@
       " © 2025 Untitled UI. All rights reserved."
     ]
   },
-  "icons":{
-    "dropdown":"open language switcher",
+  "icons": {
+    "dropdown": "open language switcher",
     "dark": "switch to dark theme",
     "light": "switch to light theme",
     "toggle": "toggle theme",
     "mobileMenu": "open mobile menu",
     "close": "close mobile menu",
-    "telegram":"link to Telegram:",
+    "telegram": "link to Telegram:",
     "github": "link to Github",
     "linkedin": "link to Linkedin",
-    "toTop":"scroll to top"
+    "toTop": "scroll to top"
   }
-} 
+}

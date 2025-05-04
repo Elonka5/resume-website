@@ -1,12 +1,12 @@
-import {typeText } from "./lang.js";
+import { typeText } from './lang.js';
 
 export async function renderEducationList(translations) {
-  const listContainer = document.getElementById("education-list");
+  const listContainer = document.getElementById('education-list');
   listContainer.innerHTML = '';
-  let markup = "";
+  let markup = '';
 
   Object.keys(translations.education).forEach((key) => {
-    if (key !== "mainTitle" && key !== "description") {
+    if (key !== 'mainTitle' && key !== 'description') {
       const education = translations.education[key];
       markup += `
         <li class="education-item">
@@ -18,16 +18,16 @@ export async function renderEducationList(translations) {
     }
   });
 
-  listContainer.insertAdjacentHTML("beforeend", markup);
+  listContainer.insertAdjacentHTML('beforeend', markup);
 
-  const animatedElements = listContainer.querySelectorAll("[data-i18n-key]");
+  const animatedElements = listContainer.querySelectorAll('[data-i18n-key]');
 
   const observer = new IntersectionObserver(
     (entries, obs) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const el = entry.target;
-          const keys = el.getAttribute("data-i18n-key").split(".");
+          const keys = el.getAttribute('data-i18n-key').split('.');
           let value = translations;
           for (let key of keys) value = value?.[key];
           if (Array.isArray(value)) {
@@ -42,4 +42,3 @@ export async function renderEducationList(translations) {
 
   animatedElements.forEach((el) => observer.observe(el));
 }
-

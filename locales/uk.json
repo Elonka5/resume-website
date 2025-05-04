@@ -149,7 +149,7 @@
     "connect": {
       "email": "Ел. пошта:",
       "emailValue": "elona539@gmail.com",
-      "telegram": "Telegram:",
+      "telegram": "Телеграм:",
       "telegramValue": "@Elonka",
       "phone": "Телефон:",
       "phoneValue": "+380 63 564 53 56"
@@ -162,7 +162,7 @@
       "© 2025 Untitled UI. Всі права захищені."
     ]
   },
-  "icons":{
+  "icons": {
     "dropdown": "відкрити перемикач мови",
     "dark": "перемкнути на темну тему",
     "light": "перемкнути на світлу тему",
@@ -172,6 +172,6 @@
     "telegram": "посилання на Telegram:",
     "github": "посилання на GitHub",
     "linkedin": "посилання на LinkedIn",
-    "toTop":"прокрутити до верху"
+    "toTop": "прокрутити до верху"
   }
 }
