@@ -6,68 +6,96 @@
     "education": "Освіта",
     "projects": "Проекти"
   },
-  "hero": {
-    "title": "Elona Savchenko",
-    "social": "Social account",
-    "subtitle": "Front-end Developer",
-    "subtitle2": "Developer",
-    "description": "I specialize in building web applications, using technologies such as HTML, CSS, JavaScript, React, Next.js",
-    "button": "Let's Talk"
+ "hero": {
+    "title": "Елона Савченко",
+    "social": "Соціальний акаунт",
+    "subtitle": "Фронтенд-розробник",
+    "subtitle2": "Розробник",
+    "description": "Я спеціалізуюсь на створенні веб-додатків, використовуючи технології, такі як HTML, CSS, JavaScript, React, Next.js",
+    "button": "Давайте поговоримо",
+    "animatedTitle": ["Чарівник", "Ой...","✨ Облівіейт!", "Фронтенд-розробник"]
   },
   "about": {
-    "title": "About Me",
-    "description":"A junior frontend developer eager to grow in the field of web development. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.",
-    "description2":"Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team.",
-    "button":"Завантажити резюме"
+    "title": "Про мене",
+    "description": "Я молодший фронтенд-розробник, прагну розвиватися в галузі веб-розробки. Я завершив відповідні курси та створив особисті проекти. Я детально орієнтуюсь, відповідальний і відкритий до вивчення нових технологій та роботи в команді.",
+    "description2": "Позаяк, я люблю плавати та ходити на довгі прогулянки — ці заняття допомагають мені залишатися зосередженим і енергійним. Я шукаю посаду молодшого фронтенд-розробника, де зможу застосувати свої навички, внести свій вклад у реальні проекти та розвиватися в складі мотивованої команди.",
+    "button": "Завантажити резюме"
   },
-  "skills":{
-    "animatedTitle": ["Мої заклинання", "Я мала на увазі...", "Мої навички"]
-},
-"education":{
-    "mainTitle": "Education",
-    "description":"A summary of my academic background and professional training.",
-    "1":{
-        "animatedTitle": ["IT School GoIT"],
-        "title": " IT School GoIT",
-        "subtitle": "Full-Stack Developer",
-        "date": "April 2023 – December 2023"
-    },
-    "2":{
-        "animatedTitle": ["Hogwarts School of Witchc... ", "Actually ...", "Kyiv National Linguistic University"],
-        "title": "Kyiv National Linguistic University",
-        "subtitle": "Law",
-        "date": "September 2006 – June 2011"
-    }
-    },
-
-    "projects":{
-      "animatedTitle": ["Експекто Деплоймент!","Тобто, вибач!...", "Мої проекти" ],
-      "description":"A selection of my work, showcasing my skills and expertise in web development.",
-      "1":{
-        "animatedTitle": ["IT School GoIT"],
-        "title": " IT School GoIT",
-        "subtitle": "Full-Stack Developer",
-        "date": "April 2023 – December 2023"
-    },
-    "2":{
-        "animatedTitle": ["Hogwarts School of Witchc... ", "Actually ...", "Kyiv National Linguistic University"],
-        "title": "Kyiv National Linguistic University",
-        "subtitle": "Law",
-        "date": "September 2006 – June 2011"
-    }
-    },
-    "contact": {
-    "title": "Звʼяжіться зі мною",
-    "name": "Ваше ім’я",
-    "email": "Електронна пошта",
-    "message": "Ваше повідомлення",
-    "button": "Надіслати",
-    "success": "Повідомлення надіслано!",
-    "error": "Помилка при надсиланні...",
-    "network": "Мережна помилка"
+  "skills": {
+    "animatedTitle": ["Мої закляття", "Я маю на увазі...", "Мої навички"]
   },
- "form": {
-    "title": "Контактна форма",
+  "education": {
+    "mainTitle": "Освіта",
+    "description": "Огляд мого академічного фону та професійного навчання.",
+    "1": {
+      "animatedTitle": ["IT School GoIT"],
+      "title": "IT School GoIT",
+      "subtitle": "Full-Stack розробник",
+      "date": "Квітень 2023 – Грудень 2023"
+    },
+    "2": {
+      "animatedTitle": ["Школа магії Хогвартс", "Не треба було цього говорити...", "Київський національний лінгвістичний університет"],
+      "title": "Київський національний лінгвістичний університет",
+      "subtitle": "Право",
+      "date": "Вересень 2006 – Червень 2011"
+    }
+  },
+  "projects": {
+    "animatedTitle": ["Expecto Deployment!", "Прошу вибачення...", "Мої проекти"],
+    "1": {
+      "title": "VI-3",
+      "description": "Розробка адаптивного сайту для демонстрації дверей, вікон та супутніх товарів.",
+      "technologies": "Технології",
+      "techStack": "Next.js, Next Intl, TypeScript, Tailwind CSS, Canvas, Swiper",
+      "date": "Грудень 2024 – Березень 2025",
+      "link": "https://vi-3.vercel.app/uk",
+      "textLink": "Переглянути проект",
+      "src": "./assets/images/projects/vi_3.webp",
+      "alt": "Зображення проекту Vi-3",
+      "ariaLabel": "Посилання на проект Vi-3"
+    },
+    "2": {
+      "title": "Envent",
+      "description": "Адаптивний багатомовний сайт для компанії HVAC.",
+      "technologies": "Технології",
+      "techStack": "Next.js, Next Intl, TypeScript, SCSS, Framer Motion",
+      "date": "Серпень 2024 – Листопад 2024",
+      "link": "https://envent.vercel.app/uk",
+      "textLink": "Переглянути проект",
+      "src": "./assets/images/projects/envent.webp",
+      "alt": "Зображення проекту Envent",
+      "ariaLabel": "Посилання на проект Envent"
+    },
+    "3": {
+      "title": "ITEdu",
+      "description": "Система моніторингу освітніх програм у галузі «ІТ» в Харківському вищому навчальному закладі.",
+      "technologies": "Технології",
+      "techStack": "React, Redux, React Hook Form, MUI, Styled Components, Axios",
+      "date": "Березень 2024 – Травень 2024",
+      "link": "https://it-certification.vercel.app/",
+      "textLink": "Переглянути проект",
+      "src": "./assets/images/projects/ITEdu.webp",
+      "alt": "Зображення проекту ITEdu",
+      "ariaLabel": "Посилання на проект ITEdu"
+    },
+    "4": {
+      "title": "Fresh Harvest Box",
+      "description": "Сайт магазину Harvest з адаптивним дизайном і анімацією.",
+      "technologies": "Технології",
+      "techStack": "HTML, CSS, JS, Parcel",
+      "date": "Червень 2023 – Червень 2023",
+      "link": "https://stepaniuk-den.github.io/UDT/index.html",
+      "textLink": "Переглянути проект",
+      "src": "./assets/images/projects/fresh_harvest.webp",
+      "alt": "Зображення проекту Fresh Harvest Box",
+      "ariaLabel": "Посилання на проект Fresh Harvest Box"
+    }
+  },
+  "contact": {
+    "title": "Зв'яжіться зі мною"
+  },
+  "form": {
+    "title": "Форма зв'язку",
     "labels": {
       "name": "Ім'я",
       "email": "Електронна пошта",
@@ -80,11 +108,11 @@
     },
     "submit": "Відправити",
     "clear": "Очистити",
-    "success": "Форму успішно відправлено!",
+    "success": "Форма успішно надіслана!",
     "errors": {
       "name": {
         "required": "Ім'я обов'язкове",
-        "minLength": "Ім'я має містити принаймні 2 символи"
+        "minLength": "Ім'я повинно містити не менше 2 символів"
       },
       "email": {
         "required": "Електронна пошта обов'язкова",
@@ -92,12 +120,29 @@
       },
       "message": {
         "required": "Повідомлення обов'язкове",
-        "minLength": "Повідомлення має містити принаймні 10 символів"
+        "minLength": "Повідомлення повинно містити не менше 10 символів"
       }
     }
   },
-
+  "contactList": {
+    "location": {
+      "country": "Країна:",
+      "countryValue": "Україна",
+      "city": "Місто:",
+      "cityValue": "Київ",
+      "format": "Формат:",
+      "formatValue": "Віддалено + офіс"
+    },
+    "connect": {
+      "email": "Ел. пошта:",
+      "emailValue": "elona539@gmail.com",
+      "telegram": "Telegram:",
+      "telegramValue": "@Elonka",
+      "phone": "Телефон:",
+      "phoneValue": "+380 63 564 53 56"
+    }
+  },
   "footer": {
-    "contact": "Contact us"
+    "animatedTitle": ["Accio вакансії!", "Гаразд, гаразд… назад до реальності.", "© 2025 Untitled UI. Всі права захищені."]
   }
 }

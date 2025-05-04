@@ -1,10 +1,10 @@
-const LightSwitcher = document.querySelector(".switcher")
-let isLight = localStorage.getItem("isLight") === "true"
+const darkSwitcher = document.querySelector(".switcher")
+let isDark = localStorage.getItem("isDark") === "true"
 
-document.body.classList.toggle("light", isLight)
+document.body.classList.toggle("dark", isDark)
 
-LightSwitcher.onclick = function () {
-    isLight = !isLight
-    document.body.classList.toggle("light", isLight)
-    localStorage.setItem("isLight", isLight)
+darkSwitcher.onclick = function () {
+    isDark = !isDark
+    document.body.classList.toggle("dark", isDark)
+    localStorage.setItem("isDark", isDark)
 }

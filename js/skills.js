@@ -17,18 +17,6 @@ const skills = [
     "API Integration",
   ];
   
-//   function renderSkillsList(array) {
-//     let markup = '';
-  
-//     array.forEach((skill, index) => {
-//       markup += `<li class="skill-item" style="animation-delay: ${index * 0.2}s">${skill}</li>`;
-//     });
-  
-//     const listContainer = document.getElementById('skills-list');
-//     listContainer.insertAdjacentHTML('beforeend', markup);
-//   }
-  
-//   renderSkillsList(skills);
 function renderSkillsList(array) {
     let markup = '';
   

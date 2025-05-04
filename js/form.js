@@ -1,37 +1,6 @@
-// import { loadTranslations } from "./lang.js";
-
-// document.getElementById('contact-form').addEventListener('submit', async (e) => {
-//     e.preventDefault();
-//     const form = e.target;
-//     const data = {
-//       name: form.name.value,
-//       email: form.email.value,
-//       message: form.message.value
-//     };
-  
-//     const lang = localStorage.getItem('lang') || 'uk';
-//     const translations = await loadTranslations(lang);
-  
-//     try {
-//       const res = await fetch('https://script.google.com/macros/s/AKfycbyMe6QHF7dPJsveIka4uo4KFPF4inZPpMwmxvJp68Xz7o5DC_yNLM_9_eGbCK1gcP_M/exec', {
-//         method: 'POST',
-//         body: JSON.stringify(data),
-//         headers: { 'Content-Type': 'application/json' }
-//       });
-  
-//       if (res.ok) alert(translations.contact.success);
-//       else alert(translations.contact.error);
-//     } catch (err) {
-//       alert(translations.contact.network);
-//     }
-  
-//     form.reset();
-//   });
-
 export function initForm(translations) {
     const form = document.getElementById("contact-form");
-    const clearButton = document.getElementById("clear-form");
-  
+
     if (!form) {
       console.error("Form or clear button not found");
       return;
@@ -39,7 +8,7 @@ export function initForm(translations) {
   
 
     form.addEventListener("submit", (e) => handleSubmit(e, translations));
-    clearButton.addEventListener("click", () => clearForm(translations));
+
   }
   
   function validateForm(data, translations) {

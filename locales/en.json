@@ -43,10 +43,9 @@
 
     "projects":{
       "animatedTitle": ["Expecto Deployment!","I mean, sorry...", "My Projects"],
-      "description":"A selection of my work, showcasing my skills and expertise in web development.",
       "1":{
         "title": "VI-3",
-        "description":"Developed an adaptive website to showcase doors, windows, and related products,featuring a minimalist design for easy product exploration.",
+        "description":"Developed an adaptive website to showcase doors, windows, and related products.",
         "technologies":"Technologies",
         "techStack":"Next.js, Next Intl, TypeScript, Tailwind CSS, Canvas, Swiper",
         "date": "December 2024 – March 2025",
@@ -70,7 +69,7 @@
     },
     "3":{
       "title": "ITEdu",
-      "description":"A system for monitoring educational programs in the field of “InformationTechnologies” at Kharkiv Higher Secondary Education.",
+      "description":"A system for monitoring educational programs in the field of “IT” at Kharkiv Higher Secondary Education.",
       "technologies":"Technologies",
       "techStack":"React, Redux, React Hook Form, MUI, Styled Components, Axios",
       "date": "March 2024 – May 2024",
@@ -94,14 +93,7 @@
 }
     },
     "contact": {
-    "title": "Contact me",
-    "name": "Your name",
-    "email": "Email",
-    "message": "Your message",
-    "button": "Send",
-    "success": "Message sent!",
-    "error": "Error while sending...",
-    "network": "Network error"
+    "title": "Contact me"
   },
   "form": {
     "title": "Contact Form",
@@ -115,7 +107,7 @@
       "email": "Enter your email",
       "message": "Enter your message"
     },
-    "submit": "Submit",
+    "submit": "Send",
     "clear": "Clear",
     "success": "Form submitted successfully!",
     "errors": {
@@ -133,7 +125,25 @@
       }
     }
   },
+  "contactList":{
+    "location":{
+      "country": "Country:",
+      "countryValue": "Ukraine",
+      "city": "City:",
+      "cityValue": "Kyiv",
+      "format": "Format:",
+      "formatValue": "Remote + office"
+    },
+    "connect":{
+      "email": "Email:",
+      "emailValue": "elona539@gmail.com",
+      "telegram": "Telegram:",
+      "telegramValue": "@Elonka",
+      "phone": "Phone:",
+      "phoneValue": "+380 63 564 53 56"
+    }
+  },
     "footer": {
-      "contact": "Contact us"
+      "animatedTitle": ["Accio job offers!","Okay, okay… back to reality.", " © 2025 Untitled UI. All rights reserved."]
     }
   }

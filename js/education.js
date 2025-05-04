@@ -1,6 +1,8 @@
 import {typeText } from "./lang.js";
 
 export async function renderEducationList(translations) {
+  const listContainer = document.getElementById("education-list");
+  listContainer.innerHTML = '';
   let markup = "";
 
   Object.keys(translations.education).forEach((key) => {
@@ -16,7 +18,6 @@ export async function renderEducationList(translations) {
     }
   });
 
-  const listContainer = document.getElementById("education-list");
   listContainer.insertAdjacentHTML("beforeend", markup);
 
   const animatedElements = listContainer.querySelectorAll("[data-i18n-key]");
