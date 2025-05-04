@@ -43,9 +43,3 @@ export async function renderEducationList(translations) {
   animatedElements.forEach((el) => observer.observe(el));
 }
 
-// document.addEventListener("DOMContentLoaded", async () => {
-//   const savedLang = localStorage.getItem("lang") || "uk";
-//   const translations = await loadTranslations(savedLang);
-
-//   renderEducationList(translations);
-// });

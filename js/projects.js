@@ -72,12 +72,12 @@ export async function renderProjectList(translations) {
     if (key !== "animatedTitle") {
       const project = translations.projects[key];
       markup += `
-      <div class="stack-item">
+      <li class="stack-item">
         <div class="gradient"></div>
         <img src="${project.src}" alt="${project.alt}" width="400" height="300" loading="lazy">
         <div class="polaroid"></div> 
-        <div class="polaroid-body">
-          <div class="stack-text">
+        <ul class="polaroid-body">
+          <li class="stack-text">
          <h3 class="project-item-title" data-i18n="projects.${key}.title">${project.title}</h3>
             <p class="project-item-date" data-i18n="projects.${key}.date">${project.date}</p>
             <p class="project-description">${project.description}</p>
@@ -100,9 +100,9 @@ export async function renderProjectList(translations) {
                 </svg>
               </span>
             </a>
-          </div>
-        </div>
-      </div>
+          </li>
+        </ul>
+      </li>
     `;
     }
   });

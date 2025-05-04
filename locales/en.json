@@ -1,98 +1,107 @@
 {
-    "header": {
-      "home": "Home",
-      "about": "About",
-      "education": "Education",
-      "projects": "Projects",
-      "contact": "Contact"
-    },
-    "hero":{
-      "title": "Elona Savchenko",
-      "social": "Social account",
-      "subtitle":  "Front-end Developer",
-      "subtitle2": "Developer",
-      "description":"I specialize in building web applications, using technologies such as HTML, CSS, JavaScript, React, Next.js",
-      "button":"Let's Talk",
-      "animatedTitle": ["Wizard", "Ooops...","✨ Obliviate!", "Front-end Developer"]
-    },
-    "about":{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Elona Savchenko",
+    "social": "Social account",
+    "subtitle": "Front-end Developer",
+    "subtitle2": "Developer",
+    "description": "I specialize in building web applications, using technologies such as HTML, CSS, JavaScript, React, Next.js",
+    "button": "Let's Talk",
+    "animatedTitle": [
+      "Wizard",
+      "Ooops...",
+      "✨ Obliviate!",
+      "Front-end Developer"
+    ]
+  },
+  "about": {
     "title": "About Me",
-    "description":"A junior frontend developer eager to grow in the field of web development. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.",
-    "description2":"Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team.",
-    "button":"Download CV"
-    },
-    "skills":{
-        "animatedTitle": ["My spells", "I mean ...", "My skills"]
-    },
-    "education":{
+    "description": "A junior frontend developer eager to grow in the field of web development. For me, coding is like crafting a story together with a team of developers, where every line of code contributes to a shared vision. I’ve completed relevant courses and built personal projects. I’m detail-oriented, responsible, and open to learning new technologies and working in a collaborative environment.",
+    "description2": "Outside of tech, I enjoy swimming and going on long walks — activities that help me stay focused and energized. I’m looking for a junior frontend position where I can apply my skills, contribute to real-world projects, and grow as part of a motivated team.",
+    "button": "Download CV"
+  },
+  "skills": {
+    "animatedTitle": ["My spells", "I mean ...", "My skills"]
+  },
+  "education": {
     "mainTitle": "Education",
-    "description":"A summary of my academic background and professional training.",
-    "1":{
-        "animatedTitle": ["IT School GoIT"],
-        "title": " IT School GoIT",
-        "subtitle": "Full-Stack Developer",
-        "date": "April 2023 – December 2023"
+    "description": "A summary of my academic background and professional training.",
+    "1": {
+      "animatedTitle": ["IT Courses GoIT"],
+      "title": " IT School GoIT",
+      "subtitle": "Full-Stack Developer",
+      "date": "April 2023 – December 2023"
     },
-    "2":{
-        "animatedTitle": ["Hogwarts School of Witchcr... ", "I shouldn't have said that ...", "Kyiv National Linguistic University"],
-        "title": "Kyiv National Linguistic University",
-        "subtitle": "Law",
-        "date": "September 2006 – June 2011"
+    "2": {
+      "animatedTitle": [
+        "Hogwarts School of Witchcr... ",
+        "I shouldn't have said that ...",
+        "Kyiv National Linguistic University"
+      ],
+      "title": "Kyiv National Linguistic University",
+      "subtitle": "Law",
+      "date": "September 2006 – June 2011"
     }
-    },
+  },
 
-    "projects":{
-      "animatedTitle": ["Expecto Deployment!","I mean, sorry...", "My Projects"],
-      "1":{
-        "title": "VI-3",
-        "description":"Developed an adaptive website to showcase doors, windows, and related products.",
-        "technologies":"Technologies",
-        "techStack":"Next.js, Next Intl, TypeScript, Tailwind CSS, Canvas, Swiper",
-        "date": "December 2024 – March 2025",
-        "link": "https://vi-3.vercel.app/en",
-        "textLink": "View Project",
-        "src": "./assets/images/projects/vi_3.webp",
-        "alt":"image of Vi-3 project",
-        "ariaLabel": "Link to Vi-3 project"
+  "projects": {
+    "animatedTitle": ["Expecto Deployment!", "I mean, sorry...", "My Projects"],
+    "1": {
+      "title": "VI-3",
+      "description": "Developed an adaptive website to showcase doors, windows, and related products.",
+      "technologies": "Technologies",
+      "techStack": "Next.js, Next Intl, TypeScript, Tailwind CSS, Canvas, Swiper",
+      "date": "December 2024 – March 2025",
+      "link": "https://vi-3.vercel.app/en",
+      "textLink": "View Project",
+      "src": "./assets/images/projects/3.webp",
+      "alt": "image of Vi-3 project",
+      "ariaLabel": "Link to Vi-3 project"
     },
-    "2":{
-        "title": "Envent",
-        "description":"Adaptive multilingual website for an HVAC company.",
-        "technologies":"Technologies",
-        "techStack":"Next.js, Next Intl, TypeScript, SCSS, Framer Motion",
-        "date": "August 2024 – November 2024",
-        "link": "https://envent.vercel.app/en",
-        "textLink": "View Project",
-        "src": "./assets/images/projects/envent.webp",
-        "alt":"image of Envent project",
-        "ariaLabel": "Link to Envent project"
+    "2": {
+      "title": "Envent",
+      "description": "Adaptive multilingual website for an HVAC company.",
+      "technologies": "Technologies",
+      "techStack": "Next.js, Next Intl, TypeScript, SCSS, Framer Motion",
+      "date": "August 2024 – November 2024",
+      "link": "https://envent.vercel.app/en",
+      "textLink": "View Project",
+      "src": "./assets/images/projects/envent.webp",
+      "alt": "image of Envent project",
+      "ariaLabel": "Link to Envent project"
     },
-    "3":{
+    "3": {
       "title": "ITEdu",
-      "description":"A system for monitoring educational programs in the field of “IT” at Kharkiv Higher Secondary Education.",
-      "technologies":"Technologies",
-      "techStack":"React, Redux, React Hook Form, MUI, Styled Components, Axios",
+      "description": "A system for monitoring educational programs in the field of “IT” at Kharkiv Higher Secondary Education.",
+      "technologies": "Technologies",
+      "techStack": "React, Redux, React Hook Form, MUI, Styled Components, Axios",
       "date": "March 2024 – May 2024",
       "link": "https://it-certification.vercel.app/",
       "textLink": "View Project",
       "src": "./assets/images/projects/ITEdu.webp",
-      "alt":"image of ITEdu project",
+      "alt": "image of ITEdu project",
       "ariaLabel": "Link to ITEdu project"
-  },
-  "4":{
-    "title": "Fresh Harvest Box",
-    "description":"Harvest Shop website with responsive layout and animation.",
-    "technologies":"Technologies",
-    "techStack":"HTML, CSS, JS, Parcel",
-    "date": "June 2023 – June 2023",
-    "link": "https://stepaniuk-den.github.io/UDT/index.html",
-    "textLink": "View Project",
-    "src": "./assets/images/projects/fresh_harvest.webp",
-    "alt":"image of Fresh Harvest Box project",
-    "ariaLabel": "Link to Fresh Harvest Box project"
-}
     },
-    "contact": {
+    "4": {
+      "title": "Fresh Harvest Box",
+      "description": "Harvest Shop website with responsive layout and animation.",
+      "technologies": "Technologies",
+      "techStack": "HTML, CSS, JS, Parcel",
+      "date": "June 2023 – June 2023",
+      "link": "https://stepaniuk-den.github.io/UDT/index.html",
+      "textLink": "View Project",
+      "src": "./assets/images/projects/fresh_harvest.webp",
+      "alt": "image of Fresh Harvest Box project",
+      "ariaLabel": "Link to Fresh Harvest Box project"
+    }
+  },
+  "contact": {
     "title": "Contact me"
   },
   "form": {
@@ -125,8 +134,8 @@
       }
     }
   },
-  "contactList":{
-    "location":{
+  "contactList": {
+    "location": {
       "country": "Country:",
       "countryValue": "Ukraine",
       "city": "City:",
@@ -134,7 +143,7 @@
       "format": "Format:",
       "formatValue": "Remote + office"
     },
-    "connect":{
+    "connect": {
       "email": "Email:",
       "emailValue": "elona539@gmail.com",
       "telegram": "Telegram:",
@@ -143,7 +152,23 @@
       "phoneValue": "+380 63 564 53 56"
     }
   },
-    "footer": {
-      "animatedTitle": ["Accio job offers!","Okay, okay… back to reality.", " © 2025 Untitled UI. All rights reserved."]
-    }
+  "footer": {
+    "animatedTitle": [
+      "Accio job offers!",
+      "Okay, okay… back to reality.",
+      " © 2025 Untitled UI. All rights reserved."
+    ]
+  },
+  "icons":{
+    "dropdown":"open language switcher",
+    "dark": "switch to dark theme",
+    "light": "switch to light theme",
+    "toggle": "toggle theme",
+    "mobileMenu": "open mobile menu",
+    "close": "close mobile menu",
+    "telegram":"link to Telegram:",
+    "github": "link to Github",
+    "linkedin": "link to Linkedin",
+    "toTop":"scroll to top"
   }
+} 

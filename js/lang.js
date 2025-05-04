@@ -162,6 +162,16 @@ export function applyTranslations(translations) {
     }
   });
 
+  const ariaElements = document.querySelectorAll('[data-i18n-aria]');
+ariaElements.forEach(el => {
+  const keys = el.getAttribute('data-i18n-aria').split('.');
+  let text = translations;
+  for (let key of keys) text = text?.[key];
+  if (typeof text === 'string') {
+    el.setAttribute('aria-label', text);
+  }
+});
+
   const animatedElements = document.querySelectorAll('[data-i18n-key]');
   const observer = new IntersectionObserver(
     (entries, obs) => {

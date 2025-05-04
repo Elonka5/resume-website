@@ -85,9 +85,3 @@ export function initForm(translations) {
     }
   }
   
-  function clearForm(translations) {
-    const form = document.getElementById("contact-form");
-    form.reset();
-    document.querySelectorAll(".error-message").forEach((el) => (el.textContent = ""));
-    document.getElementById("success-message").textContent = "";
-  }

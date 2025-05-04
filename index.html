@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./assets/icons/logo.svg" sizes="32x32"/>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/icons/logo.svg"
+      sizes="32x32"
+    />
     <title>Resume Elona Savchenko</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,38 +20,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+
+    <!------------- HEADER ---------->
     <div class="container">
       <header class="header">
         <div class="nav-container">
           <a href="./index.html" aria-label="Resume homepage">
-              <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="50" fill="#76eaad" />
-                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-                      font-family="Inter, sans-serif" font-size="40" fill="#ffffff">
-                  ES
-                </text>
-              </svg></a>
+            <svg
+              class="logo-icon"
+              width="30"
+              height="30"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" r="50" fill="#76eaad" />
+              <text
+                x="50%"
+                y="50%"
+                dominant-baseline="middle"
+                text-anchor="middle"
+                font-family="Inter, sans-serif"
+                font-size="40"
+                fill="#ffffff"
+              >
+                ES
+              </text>
+            </svg></a
+          >
           <nav class="header-nav" aria-label="Main navigation">
-            <!-- <a href="./index.html" aria-label="Resume homepage"> -->
-              <!-- <svg class="logo-icon" aria-hidden="true">
-                <use href="./assets/icons/logo.svg"></use>
-              </svg> -->
-
-            <!-- </a> -->
             <ul class="nav-list" id="main-nav">
               <li class="item">
-                <a
-                  href="#home"
-                  class="link"
-                  data-i18n="header.home"
-                ></a>
+                <a href="#home" class="link" data-i18n="header.home"></a>
               </li>
               <li class="item">
-                <a
-                  href="#about"
-                  class="link"
-                  data-i18n="header.about"
-                ></a>
+                <a href="#about" class="link" data-i18n="header.about"></a>
               </li>
               <li class="item">
                 <a
@@ -57,60 +64,78 @@
               </li>
               <li class="item">
                 <a
-                  href="#projects"
+                  href="#projects-section"
                   class="link"
                   data-i18n="header.projects"
                 ></a>
               </li>
               <li class="item">
-                <a
-                  href="#contact"
-                  class="link"
-                  data-i18n="header.contact"
-                ></a>
+                <a href="#contact" class="link" data-i18n="header.contact"></a>
               </li>
             </ul>
           </nav>
-          <!-- <div class="mobile-menu" id="mobileMenu">
-          </div> -->
           <div class="language-switcher-wrapper" id="mobileControls">
-          <!-- <select id="languageSwitcher" class="language-switcher">
-            <option value="uk">Українська</option>
-            <option value="en">English</option>
-          </select> -->
-          <div class="custom-dropdown" id="languageSwitcher">
-            <button class="dropdown-toggle" id="dropdownBtn">
-              <span class="selected-value">Українська</span>
-              <svg width="12" height="12" viewBox="0 0 24 24">
-                <path d="M7 10l5 5 5-5z" fill="currentColor"/>
-              </svg>
-            </button>
-            <ul class="dropdown-menu">
-              <li data-value="uk" class="active">Українська</li>
-              <li data-value="en">English</li>
-            </ul>
+            <div class="custom-dropdown" id="languageSwitcher">
+              <button class="dropdown-toggle" id="dropdownBtn">
+                <span class="selected-value">Українська</span>
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  data-i18n-aria="icons.dropdown"
+                  aria-label=""
+                >
+                  <path d="M7 10l5 5 5-5z" fill="currentColor" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li data-value="uk" class="active">Українська</li>
+                <li data-value="en">English</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-          
           <div class="switcher">
             <div class="switch-icon">
-              <svg width="14" height="14" class="header__icon-moon">
+              <svg
+                width="14"
+                height="14"
+                class="header__icon-moon"
+                data-i18n-aria="icons.dark"
+                aria-label=""
+              >
                 <use href="./assets/icons/icons.svg#icon-moon"></use>
               </svg>
             </div>
             <span class="switcher__ball">
-              <svg width="18" height="18">
+              <svg
+                width="18"
+                height="18"
+                data-i18n-aria="icons.toggle"
+                aria-label=""
+              >
                 <use href="./images/btn.svg"></use>
               </svg>
             </span>
             <div class="switch-icon">
-              <svg width="14" height="14" class="header__icon-sun">
+              <svg
+                width="14"
+                height="14"
+                class="header__icon-sun"
+                data-i18n-aria="icons.light"
+                aria-label=""
+              >
                 <use href="./assets/icons/icons.svg#icon-sun"></use>
               </svg>
             </div>
           </div>
-          <button type="button" class="burger-menu" id="burgerBtn" aria-label="mobile-menu">
+          <button
+            type="button"
+            class="burger-menu"
+            id="burgerBtn"
+            data-i18n-aria="icons.mobileMenu"
+            aria-label=""
+          >
             <svg class="burger-icon">
               <use href="./assets/icons/icons.svg#menu"></use>
             </svg>
@@ -118,13 +143,26 @@
         </div>
       </header>
     </div>
+
+    <!------------- MODAL ---------->
+
     <div class="mobile-modal" id="mobileModal">
       <div class="mobile-modal-content" id="modalContent">
-        <button class="close-btn" id="closeModal" aria-label="Close menu">✕</button>
-        
+        <button
+          class="close-btn"
+          id="closeModal"
+          data-i18n-aria="icons.close"
+          aria-label=""
+        >
+          <svg class="close-icon">
+            <use href="./assets/icons/icons.svg#close"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <main>
+
+    <!------------- HERO ---------->  
       <section class="hero" id="home">
         <div class="hero-container container">
           <div class="hero-first-wrapper">
@@ -141,7 +179,8 @@
                       href="https://t.me/elonka"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="link to Telegram"
+                      data-i18n-aria="icons.telegram"
+                      aria-label=""
                     >
                       <svg class="hero-icon">
                         <use href="./assets/icons/icons.svg#telegram"></use>
@@ -153,7 +192,8 @@
                       href="https://www.linkedin.com/in/elona-savchenko-a9a2b586/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="link to Linkedin"
+                      data-i18n-aria="icons.linkedin"
+                      aria-label=""
                     >
                       <svg class="hero-icon">
                         <use href="./assets/icons/icons.svg#linkedin"></use>
@@ -165,7 +205,8 @@
                       href="https://github.com/Elonka5"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="link to GitHub"
+                      data-i18n-aria="icons.github"
+                      aria-label=""
                     >
                       <svg class="hero-icon">
                         <use href="./assets/icons/icons.svg#github"></use>
@@ -195,21 +236,25 @@
           <div class="hero-second-wrapper">
             <h2 class="hero-subtitle" data-i18n-key="hero.animatedTitle"></h2>
             <p class="hero-description" data-i18n="hero.description"></p>
-            <button class="btn primary">
+            <a class="btn primary" href="#contact">
               <span data-i18n="hero.button"></span>
               <span class="circle">
                 <svg class="btn-icon">
-                  <use href="./assets/icons/icons.svg#arrow"></use></svg></span>
-            </button>
+                  <use href="./assets/icons/icons.svg#arrow"></use>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
       </section>
+
+    <!------------- ABOUT ---------->
       <section class="about" id="about">
         <div class="container about-container">
           <div class="thumb-about">
-            <div class="triangle">
+            <div class="triangle secondary">
               <img
-                class="hero-img"
+                class="about-img"
                 src="./assets/images/about/about@1x.png"
                 srcset="
                   ./assets/images/about/about@1x.png 1x,
@@ -224,7 +269,7 @@
           </div>
           <div class="about-wrapper">
             <h2 class="about-title" data-i18n="about.title"></h2>
-            
+
             <p class="about-description" data-i18n="about.description"></p>
             <p class="about-description" data-i18n="about.description2"></p>
             <a
@@ -235,11 +280,15 @@
               <span data-i18n="about.button"></span>
               <span class="circle">
                 <svg class="btn-icon">
-                  <use href="./assets/icons/icons.svg#download"></use></svg></span>
+                  <use href="./assets/icons/icons.svg#download"></use>
+                </svg>
+              </span>
             </a>
           </div>
         </div>
       </section>
+
+      <!------------- SKILLS ---------->
       <section class="skills-section" id="skills">
         <div class="skills-container container">
           <div class="skills-title-wrapper">
@@ -252,6 +301,8 @@
           <ul id="skills-list" class="skills-list"></ul>
         </div>
       </section>
+
+      <!------------- EDUCATION ---------->
       <section class="education-section" id="education">
         <div class="education-container container">
           <div class="education-title-wrapper">
@@ -260,28 +311,28 @@
               data-i18n="education.mainTitle"
             ></h2>
             <span class="line"></span>
-            <!-- <p
-              class="education-description"
-              data-i18n="education.description"
-            ></p> -->
           </div>
           <ul id="education-list" class="education-list"></ul>
         </div>
       </section>
-      <section  >
+
+      <!------------- PROJECTS ---------->
+      <section id="projects-section">
         <div class="projects-title-wrapper container">
           <h2
-            class="skills-subtitle black"
+            class="projects-title"
             data-i18n-key="projects.animatedTitle"
           ></h2>
-          <span class="line"></span> </div>
-          <div class="parallax-stack" id="projects"></div>
-       
+          <span class="line"></span>
+        </div>
+        <ul class="parallax-stack" id="projects"></ul>
       </section>
+
+      <!------------- CONTACTS ---------->
       <section class="contacts-section" id="contact">
         <div class="container about-container">
           <div class="thumb-about">
-            <div class="triangle">
+            <div class="triangle secondary">
               <img
                 class="contacts-img"
                 src="./assets/images/contacts/contacts@1x.png"
@@ -296,109 +347,149 @@
               />
             </div>
           </div>
-          <div class="about-wrapper">
-            <h2 class="about-title" data-i18n="contact.title"></h2>
-               <form id="contact-form">
+          <div class="form-contact-wrapper">
+            <div class="form-container">
+              <h2 class="about-title" data-i18n="contact.title"></h2>
+              <form id="contact-form">
                 <div class="form-wrapper">
-            <div class="form-group">
-              <label for="name" data-i18n="form.labels.name"></label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                data-i18n-placeholder="form.placeholders.name"
-                class="styled-input"
-              />
-              <span class="error-message" id="name-error"></span>
+                  <div class="form-group">
+                    <label for="name" data-i18n="form.labels.name"></label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      data-i18n-placeholder="form.placeholders.name"
+                      class="styled-input"
+                    />
+                    <span class="error-message" id="name-error"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" data-i18n="form.labels.email"></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      data-i18n-placeholder="form.placeholders.email"
+                      class="styled-input"
+                    />
+                    <span class="error-message" id="email-error"></span>
+                  </div>
+                  <div class="form-group">
+                    <label
+                      for="message"
+                      data-i18n="form.labels.message"
+                    ></label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      data-i18n-placeholder="form.placeholders.message"
+                      class="styled-textarea"
+                    ></textarea>
+                    <span class="error-message" id="message-error"></span>
+                  </div>
+                  <button type="submit" class="btn contact-btn">
+                    <span data-i18n="form.submit"></span>
+                    <span class="circle">
+                      <svg class="btn-icon">
+                        <use href="./assets/icons/icons.svg#arrow"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <p class="success-message" id="success-message"></p>
+                </div>
+              </form>
             </div>
-            <div class="form-group">
-              <label for="email" data-i18n="form.labels.email"></label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                data-i18n-placeholder="form.placeholders.email"
-                class="styled-input"
-              />
-              <span class="error-message" id="email-error"></span>
-            </div>
-            <div class="form-group">
-              <label for="message" data-i18n="form.labels.message"
-                ></label
-              >
-              <textarea
-                id="message"
-                name="message"
-                data-i18n-placeholder="form.placeholders.message"
-                class="styled-textarea"
-              ></textarea>
-              <span class="error-message" id="message-error"></span>
-            </div>
-            <!-- <button type="submit" data-i18n="form.submit"></button> -->
-            <!-- <button type="button" id="clear-form" data-i18n="form.clear">
-           
-            </button> -->
-            <button type="submit" class="btn contact-btn">
-              <span data-i18n="form.submit"></span>
-              <span class="circle">
-                <svg class="btn-icon">
-                  <use href="./assets/icons/icons.svg#arrow"></use></svg></span>
-            </button>
-            <p class="success-message" id="success-message"></p></div>
-          </form>
+            <ul id="contact-list" class="contact-list">
+              <li class="contact-item">
+                <span class="circle-contact">
+                  <svg class="btn-icon" aria-hidden="true">
+                    <use href="./assets/icons/icons.svg#location"></use>
+                  </svg>
+                </span>
+                <div class="connect-wrapper">
+                  <p data-i18n="contactList.location.country"></p>
+                  <p
+                    class="contact-description"
+                    data-i18n="contactList.location.countryValue"
+                  ></p>
+                </div>
+                <div class="connect-wrapper">
+                  <p data-i18n="contactList.location.city"></p>
+                  <p
+                    class="contact-description"
+                    data-i18n="contactList.location.cityValue"
+                  ></p>
+                </div>
+                <div class="connect-wrapper">
+                  <p data-i18n="contactList.location.format"></p>
+                  <p
+                    class="contact-description"
+                    data-i18n="contactList.location.formatValue"
+                  ></p>
+                </div>
+              </li>
+              <li class="contact-item">
+                <span class="circle-contact" aria-hidden="true">
+                  <svg class="btn-icon">
+                    <use href="./assets/icons/icons.svg#chat"></use>
+                  </svg>
+                </span>
+
+                <div class="connect-wrapper">
+                  <p data-i18n="contactList.connect.email"></p>
+                  <a
+                    href="mailto:elona539@gmail.com"
+                    class="contact-description"
+                    data-i18n="contactList.connect.emailValue"
+                  ></a>
+                </div>
+
+                <div class="connect-wrapper">
+                  <p data-i18n="contactList.connect.telegram"></p>
+                  <a
+                    href="https://t.me/elonka"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-description"
+                    data-i18n="contactList.connect.telegramValue"
+                  ></a>
+                </div>
+
+                <div class="connect-wrapper">
+                  <p data-i18n="contactList.connect.phone"></p>
+                  <a
+                    href="tel:+380635645356"
+                    class="contact-description"
+                    data-i18n="contactList.connect.phoneValue"
+                  ></a>
+                </div>
+              </li>
+            </ul>
           </div>
-          <ul id="contact-list" class="contact-list">
-            <li class="contact-item">
-              <span class=" circle-contact">
-                <svg class="btn-icon">
-                  <use href="./assets/icons/icons.svg#location"></use></svg></span>
-                  <div class="connect-wrapper"><p data-i18n="contactList.location.country"></p><p class="contact-description" data-i18n="contactList.location.countryValue"></p></div>
-                  <div class="connect-wrapper"><p data-i18n="contactList.location.city"></p><p class="contact-description" data-i18n="contactList.location.cityValue"></p></div>
-                  <div class="connect-wrapper"><p data-i18n="contactList.location.format"></p><p class="contact-description" data-i18n="contactList.location.formatValue"></p></div>
-            </li>
-            <li class="contact-item">
-              <span class="circle-contact">
-                <svg class="btn-icon">
-                  <use href="./assets/icons/icons.svg#chat"></use>
-                </svg>
-              </span>
-            
-              <div class="connect-wrapper">
-                <p data-i18n="contactList.connect.email"></p>
-                <a href="mailto:elona539@gmail.com" class="contact-description" data-i18n="contactList.connect.emailValue"></a>
-              </div>
-            
-              <div class="connect-wrapper">
-                <p data-i18n="contactList.connect.telegram"></p>
-                <a href="https://t.me/elonka" target="_blank" rel="noopener noreferrer" class="contact-description" data-i18n="contactList.connect.telegramValue"></a>
-              </div>
-            
-              <div class="connect-wrapper">
-                <p data-i18n="contactList.connect.phone"></p>
-                <a href="tel:+380635645356" class="contact-description" data-i18n="contactList.connect.phoneValue"></a>
-              </div>
-            </li>
-          </ul>
         </div>
       </section>
     </main>
-    <div class="container footer-container">
-    <footer class="footer">
-      <div class="nav-container">
-        <p data-i18n-key="footer.animatedTitle"></p>
-      </div>
-    </footer></div>
-    <script type="module" src="./js/lang.js" defer></script>
-    <script type="module" src="./js/skills.js" defer></script>
-    <script type="module" src="./js/education.js"></script>
-    <script type="module" src="./js/projects.js"></script>
-    <script type="module" src="./js/switcher.js"></script>
-    <script type="module" src="./js/form.js"></script>
-    <!-- <script type="module" src="./js/parallax.js"></script> -->
-    <script type="module" src="./js/mobile-menu.js"></script>
-    <!-- <script type="module" src="./js/select.js"></script> -->
 
-    <!-- <script type="module" src="./js/contact.js"></script> -->
-    <!-- <script type="module" src="./js/main.js"></script> -->
+    <!------------- FOOTER ---------->
+    <div class="container footer-container">
+      <footer class="footer">
+        <div class="nav-container">
+          <p data-i18n-key="footer.animatedTitle" class="footer-text"></p>
+        </div>
+      </footer>
+    </div>
+    <button
+      class="visually-hidden"
+      scroll-to-top
+      data-i18n-aria="icons.toTop"
+      aria-label=""
+    >
+      <span class="circle-to-top">
+        <svg class="to-top-icon">
+          <use href="./assets/icons/icons.svg#arrow"></use>
+        </svg>
+      </span>
+    </button>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

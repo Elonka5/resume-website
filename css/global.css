@@ -6,23 +6,16 @@
     --toggle-main-bg-color: var(--background);
     --accent:#76eaad;
     --accent-20:rgba(118, 234, 173,0.2);
-    --primary: #2B2B2B;
-    --dark-grey: #1e1e20;
     --light-gray: #131313;
     --dark-theme:#1C1C1C;
     --light-gray-60:rgba(19, 19, 19, 0.6);
     --toggle-text-color: var(--light-gray-60);
     --light-gray-20:rgba(19, 19, 19, 0.2);
-    --medium-gray: #4f4f51;
-    --primary-20: rgba(182, 136, 103, 0.2);
-    --hover-btn: rgba(182, 136, 103, 0.7);
-    --hover-secondary-btn: rgba(64, 54, 49, 0.4);
-    --primary-light: #c5a085;
-    --green-active: #27c137;
+    --green-active: #48a975;
     --input-bg:#F6F6F6;
+    --toggle-input-bg-color: var(--input-bg);
     --animation-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --colors-effects-shadows-shadow-xs: rgba(16, 24, 40, 0.05);
-    --linear-gradient: linear-gradient(150deg, #b68867 6.05%, #bc8473 88.69%);
    --linear-bg:linear-gradient(0deg, rgba(18, 18, 20, 0.30) 0%, rgba(18, 18, 20, 0.30) 100%), lightgray 0px -582.926px / 139.01% 285.778% no-repeat;
   }
   
@@ -34,19 +27,7 @@
     margin: 0;
     padding: 0;
   }
-  
-  /* html {
-    scroll-behavior: auto;
-  }
-  
-  @media screen and (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
-  } */
-  
-  
-  
+
   body {
     position: relative;
     scrollbar-width: none;
@@ -64,12 +45,23 @@
     --toggle-theme-bg-color: var(--dark-theme);
     --toggle-text-color: var(--white-80);
     --toggle-main-bg-color:var(--light-gray);
+    --toggle-input-bg-color:var(--light-gray);
     color: var(--white);
     border: 1px solid #FFFFFF0D;
   }
 
   body.is-scroll-block {
     overflow: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--white);
+  }
+  
+   ::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 8px;
   }
   
   input,
@@ -159,23 +151,40 @@
     padding-right: 20px;
   }
   
+  @media screen and (min-width: 540px) {
+    .container {
+      max-width: 540px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }
+
   @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+      padding-left: 86px;
+      padding-right: 86px;
     }
   }
   
   @media (min-width: 1440px) {
     .container {
       max-width: 1440px;
+      padding-left: 64px;
+      padding-right: 64px;
     }
   }
   
   .btn{
     display: flex;
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
     padding: 4px 4px 4px 20px;
@@ -195,7 +204,7 @@
 }
 
 .primary{
-    width: 147px;
+    width: 160px;
 }
 
 .secondary{
@@ -206,6 +215,7 @@
     font-size: 14px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     max-width: 180px;
 }
 
@@ -274,4 +284,69 @@
             transform: scale(0);
     opacity: 1;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* TO TOP BUTTON */
+
+.circle-to-top {
+  background-color: var(--accent);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-to-top:hover,
+.circle-to-top:focus {
+  background-color: var(--green-active);
+}
+
+@media screen and (min-width: 1024px) {
+  .circle-to-top {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.scroll-to-top {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  bottom: -10px;
+  right: -18px;
+  z-index: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .scroll-to-top {
+    right: -10px;
+  }
+}
+
+.to-top-icon{
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+  transform: rotate(90deg);
+  transition: transform 0.3s ease, fill 0.3s ease;
 }
